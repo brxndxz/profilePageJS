@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="nav-links">
+            <li class="li-nav"><h1 id="h1Profile">Profile</h1></li>
+            <li class="li-nav"><a href="#" class="active">Home</a></li>
+            <li class="li-nav"><a href="#" class="active">My Profile</a></li>
+            <li class="li-nav"><a href="#" class="active">Find Connections</a></li>
+        </ul>
+        <button class="btn">Sign Out</button>
+    </div>
+    <div class="main">
+        <div class="columna1">
+            <div class="container">
+                <div class="barra">
+                    <img id="user" src="images/jane-m.jpg">
+                    <h2 id="user-name">Jane Doe</h2>
+                    <p class="p1"><img id="icono" src="icons/map-marker.png">Seattle</p>
+                    <p class="p1">Developer | Engineer | Problem Solver<br>Master of Shadows and the Internet!</p>
+                    <p class="p1"><img id="icono" src="icons/gear.png"><a href="#" onclick="editProfile()">edit profile</a></p>
+                </div>
+            </div>
+            <div class="cuadro3">
+                <div class="barra1">
+                    <p class="p2">Education</p>
+                </div>
+                <div class="relleno2">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p class="p3">Dec 2019 - Mar 2020</p>
+                    <p class="p2">Triple black belt in Python, MERN and C#</p>
+                </div>
+            </div>
+        </div>
+        <div class="columna2">
+            <div id="cuadro1">
+                <div class="row1">
+                    <span id="conn-request">2</span>
+                    <span>Connections Requests</span>
+                </div>
+                <div class="row2">
+                    <div id="usuario">
+                        <span>
+                            <img src="images/todd-s.jpg" class="user2">
+                            <span>Todd E.</span>
+                        </span>
+                        <span>
+                            <a href="#" onclick="borrarDiv(0); addConnection(0)"><img src="icons/accept-circle.png" alt="accept" class="close-accept" ></a>
+                            <a href="#" onclick="borrarDiv(0); decrease(0)"><img src="icons/close-circle.png" alt="close" class="close-accept"></a>
+                        </span>
+                    </div>
+                    <div id="usuario1">
+                        <span>
+                            <img src="images/phil-s.jpg" class="user2">
+                            <span>Phil K.</span>
+                        </span>
+                        <span>
+                            <img src="icons/accept-circle.png" alt="accept" class="close-accept" onclick="borrarDiv(1); addConnection(1)">
+                            <img src="icons/close-circle.png" alt="close" class="close-accept" onclick="borrarDiv(1); decrease(1)">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="cuadro2">
+                <div class="row1">
+                    <span id="your-connections">418</span>
+                    <span>Your connections</span>
+                </div>
+                <div class="row2c2">
+                        <div class="conexiones">
+                            <img src="images/adrien-s.jpg" class="user2">
+                            <p class="user-con">Adrien D</p>
+                        </div>
+                        <div class="conexiones">
+                            <img src="images/anne-s.jpg" class="user2">
+                            <p class="user-con">Anne J</p>
+                        </div>
+                        <div class="conexiones">
+                            <img src="images/alayne-s.jpg" class="user2">
+                            <p class="user-con">Alayne T</p>
+                        </div>
+                        <div class="conexiones">
+                            <img src="images/arry-s.jpg" class="user2">
+                            <p class="user-con">Arry Y</p>
+                        </div>
+                        <div id="footer">
+                            <a href="#">View More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

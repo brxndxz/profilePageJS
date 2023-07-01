@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf);
+}
+body{
+    font-family: "Roboto";
+}
+.nav-links{
+    display: flex;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(31, 128, 167);
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 3px black;
+    color: white;
+    margin-right: 20px;
+}
+#h1Profile{
+    color: white;
+    margin-left: 20px;
+}
+.ul-nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+}
+.li-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+/*Contenedor Principal*/
+.main{
+    width: 1000px;
+    display: flex;
+    padding-left: 200px;
+}
+.columna1{
+    padding-top: 50px;
+}
+.columna2{
+    padding-top: 50px;
+}
+/*User Profile*/
+.container{
+    width: 500px;
+    height: 300px;
+    border: solid 2px grey;
+    margin-right: 50px;
+}
+.barra{
+    background-color: rgb(83, 187, 212);
+    height: 70px;
+}
+#user{
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+#icono{
+    height: 10px;
+    margin-right: 10px;
+}
+p{
+    margin-left: 20px; 
+    margin-top: 5px;
+}
+h2{
+    margin-left: 20px;
+}
+/*CUADROS*/
+.barra1{
+    height: 50px;
+    background-color: rgb(70, 64, 64);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*Cuadro 3*/
+.cuadro3{
+    height: 200px;
+    width: 500px;
+    border: solid grey 2px;
+    margin-top: 50px;
+}
+.relleno2{
+    padding-top: 20px;
+}
+.p2{
+   margin-left: 20px; 
+}
+/*Cuadro 1*/
+#cuadro1{
+    height: 200px;
+    width: 250px;
+}
+.row1{
+    height: 50px;
+    background-color: rgb(70, 64, 64);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+.row2{
+    height: 150px;
+    background-color: white;
+    padding-top: 10px;
+    border: 2px solid gray;
+}
+.user2{
+    height: 30px;
+    border-radius: 50%;
+}
+.close-accept{
+    margin-left: 0px;
+    height: 25px;
+}
+#usuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#usuario1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Cuadro 2*/
+#cuadro2{
+    border: 2px solid grey;
+    width: 250px;
+    height:200px;
+    margin-top: 50px;
+}
+.row2c2{
+    display: inline-block;
+    width: 300px;
+}
+.conexiones{
+    display: flex;
+    margin-left: 30px;
+}
+#footer{
+    border-top: grey 2px solid;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
